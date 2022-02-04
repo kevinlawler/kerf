@@ -8,7 +8,9 @@
 
     kerf.concerns@gmail.com
 
-# Compile on OS X, ...
+# Compile on macOS, ...
+
+    #install google test. should be `brew install googletest`
 
     clang++ -std=c++2b -pthread -ledit -levent -fno-exceptions -O0 -DDEBUG -g -lgtest -fsanitize=address -ferror-limit=5 main.cc
 
